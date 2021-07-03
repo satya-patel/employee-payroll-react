@@ -8,7 +8,7 @@ import profile6 from '../../assets/profile-images/Ellipse -1.png';
 import './payroll-form.css';
 import logo from '../../assets/images/logo.png';
 import { userParams, Link, withRouter } from 'react-router-dom';
-import EmployeeService from '../../services\employee-service.js';
+import EmployeeService from '../../services/employee-service';
 
 const initialState = {
   name: '',
@@ -287,8 +287,8 @@ class PayrollForm extends React.Component {
                   <img className="profile" id="image3" src={profile3} alt="" />
                 </label>
                 <label>
-                  <input type="radio" id="profile4" name="profilePicture" value="../../assets/profile-images/Ellipse -7.png" 
-                   checked={this.state.profilePicture === '../../assets/profile-images/Ellipse -7.png'} onChange={this.profileChangeHandler} />
+                  <input type="radio" id="profile4" name="profilePicture" value="../../assets/profile-images/Ellipse -6.png" 
+                   checked={this.state.profilePicture === '../../assets/profile-images/Ellipse -6.png'} onChange={this.profileChangeHandler} />
                   <img className="profile" id="image4" src={profile4} alt="" />
                 </label>
                 <label>
