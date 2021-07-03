@@ -71,7 +71,7 @@ class HomePage extends React.Component {
                   <img className="search-icon" src={searchIcon} alt="Search Icon" />
                 </div>
                 <Link to="payroll-form" className="add-button">
-                  <img src={addIcon} alt="Add Button" />Add User
+                  <img src={addIcon} alt="Add Button" /> Add User
                 </Link>
             </div>
             <div className="table-main">

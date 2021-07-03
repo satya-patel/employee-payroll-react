@@ -10,11 +10,11 @@ class AxiosService {
   }
 
   deleteService(url = '', tokenRequired = false, httpOptions = null) {
-      return axios.delete(url, tokenRequired && httpOptions);
+    return axios.delete(url, tokenRequired && httpOptions);
   }
 
   getService(url = '', tokenRequired = false, httpOptions = null) {
-      return axios.get(url, tokenRequired && httpOptions);
+    return axios.get(url, tokenRequired && httpOptions);
   }
 }
 module.exports = new AxiosService();
